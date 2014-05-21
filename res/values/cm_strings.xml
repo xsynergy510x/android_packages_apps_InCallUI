@@ -38,4 +38,9 @@
     <!-- CallCardFragement operator names -->
     <string name="sub_no_sim">No SIM</string>
     <string name="multi_sim_entry_format" translatable="false"><xliff:g id="operator">%1$s</xliff:g>-<xliff:g id="index">%2$d</xliff:g></string>
+    <!-- Description label for answering a call on speakerphone -->
+    <string name="description_target_speaker">Answer on Speakerphone</string>
+
+    <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
+    <string name="description_direction_down">Slide down for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
 </resources>
