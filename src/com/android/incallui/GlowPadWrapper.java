@@ -154,7 +154,7 @@ public class GlowPadWrapper extends GlowPadView implements GlowPadView.OnTrigger
                 mTargetTriggered = true;
                 break;
             case R.drawable.ic_lockscreen_speaker:
-                mAnswerListener.onAnswer();
+                mAnswerListener.onAnswer(toCallType(resId));
                 CallCommandClient.getInstance().setAudioMode(AudioMode.SPEAKER);
                 mTargetTriggered = true;
                 break;
